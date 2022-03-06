@@ -92,5 +92,70 @@ a:link {
     font-size: 16px;
 }
 
+.section-2 img {
+    width: 200px;
+    height: 200px;
+}
 
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+    margin-bottom: 50px;
+    padding: 50px;
+}
 
+.cards {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    text-align: center;
+    flex-shrink: auto;
+    width: 200px;
+    height: 280px;
+}
+
+.text {
+    display: flex;
+    flex-shrink: 5px;
+    width: auto;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 100px;
+    flex-wrap: wrap;
+}
+
+.section-3 h2 {
+    font-size: 36px;
+}
+
+.section-3 h3 {
+    align-self: flex-end;
+}
+
+.section-3-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
