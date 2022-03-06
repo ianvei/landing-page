@@ -148,10 +148,15 @@ a:link {
 
 .section-3 h2 {
     font-size: 36px;
+    color: #1F2937;
+    font-weight: 200;
+    font-style: italic;
+    margin: 0;
 }
 
 .section-3 h3 {
     align-self: flex-end;
+    
 }
 
 .section-3-content {
@@ -159,3 +164,52 @@ a:link {
     flex-direction: column;
     width: 50%;
 }
+
+.footer {
+    display: inline-flex;
+    background-color: #1F2937;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color:#F9FAF8;
+}
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    width: 100%;
+    justify-content: center;
+}
+
+.action-box {
+    display: flex;
+    width: 70%;
+    padding: 20px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    gap: 100px;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.section-4 button {
+    height: 30px;
+    width: 130px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 1px 30px;
+}
+
+.sign-up:hover {
+    background-color: #F9FAF8;
+    color: #1F2937;
+    border: 2px solid #1F2937;
+  }
