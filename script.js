@@ -1,7 +1,7 @@
 const buttons = document.querySelectorAll('button');
 const actionBox = document.querySelector('.action-box')
 
-click_counter = 0
+let click_counter = 0
 buttons.forEach((button) => {
     button.addEventListener('click', () =>{
         
